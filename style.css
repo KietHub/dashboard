@@ -1,0 +1,35 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 1.5fr 8fr;
+}
+
+div {
+
+}
+
+#sidebar {
+    grid-row: 1 / 4;
+}
+
+#header {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#navbar {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 3fr repeat(3, 1fr);
+}
+
+#board {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#projects {
+    grid-row: 1 / 3;
+
+}
